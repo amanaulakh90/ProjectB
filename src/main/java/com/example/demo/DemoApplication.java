@@ -10,7 +10,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	String home() {
-		return "Spring is here!";
+		return "Spring is here! - Testing";
 	}
 
 	public static void main(String[] args) {
